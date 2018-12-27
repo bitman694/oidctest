@@ -64,6 +64,7 @@ if __name__ == '__main__':
 
     cherrypy.config.update(
         {'environment': 'production',
+         #网站错误信息
          'log.error_file': 'site.log',
          'tools.trailing_slash.on': False,
          'log.screen': True,
